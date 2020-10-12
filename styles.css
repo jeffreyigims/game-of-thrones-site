@@ -1,0 +1,209 @@
+/* 
+The code is organized from generic to specific selectors. General selectors come first, followed by class selectors and then 
+identification selectors. Selectors within these categories are sorted alphabetically as well as their attributes.
+*/
+
+@import url(https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&family=Nunito+Sans&family=Peddana&family=Ubuntu&display=swap);
+/* General selectors */
+
+body {
+  background-color: white;
+  background-image: url("img/background.jpg");
+  color: black;
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 90%;
+}
+
+table {
+  margin: 10px;
+  border-spacing: 0;
+}
+
+td {
+  text-shadow: 1px 1px 1px #fff;
+}
+
+th,
+td {
+  background-color: #888e94;
+  border: 1px solid black;
+  font-size: 90%;
+  padding: 5px 30px 5px 10px;
+  text-align: center;
+}
+
+tr.even td,
+tr.even th {
+  background-color: #a2acb4;
+}
+
+img.align-center {
+  display: block;
+  margin: 20px auto;
+}
+
+video.align-center {
+  display: block;
+  margin: 0px auto;
+}
+
+tr.head th {
+  background-color: #a2acb4;
+  border: 1px solid black;
+  color: black;
+  letter-spacing: 0.15em;
+  text-align: center;
+}
+
+tr.head th:first-child {
+  -moz-border-radius-topleft: 5px;
+  -webkit-border-top-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+tr.head th:last-child {
+  -moz-border-radius-topright: 5px;
+  -webkit-border-top-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+#page {
+  background-color: rgb(63, 54, 54);
+  font-family: "Nanum Gothic", sans-serif;
+  margin: 20px auto;
+  max-width: 1200px;
+  min-width: 720px;
+  vertical-align: baseline;
+  padding: 10px;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 4rem;
+  padding-top: 4px;
+  margin: 0px;
+  text-align: center;
+}
+
+#align-center {
+  text-align: center;
+}
+
+li {
+  font-family: "open sans", sans-serif;
+  display: inline;
+  padding: 20px;
+  text-decoration: none;
+}
+
+#footer {
+  background-color: rgb(63, 54, 54);
+  font-family: "Nanum Gothic", sans-serif;
+  margin: 20px auto;
+  max-width: 1200px;
+  min-width: 720px;
+  vertical-align: baseline;
+  padding: 10px;
+}
+
+#header {
+  background-color: rgb(63, 54, 54);
+  font-family: "Nunito Sans", sans-serif;
+  margin: 20px auto;
+  max-width: 1200px;
+  min-width: 720px;
+  vertical-align: baseline;
+  padding: 10px;
+  top: 0px;
+  z-index: 33;
+}
+
+#header h1,
+#nav a {
+  text-align: center;
+  color: white;
+  font-family: "Nunito Sans", sans-serif;
+  text-decoration: none;
+}
+
+#nav {
+  text-align: center;
+  padding: 4px;
+}
+
+#nav,
+#footer,
+#title {
+  clear: both;
+  display: block;
+  margin: auto;
+}
+.icons {
+  width: 28px;
+  height: 28px;
+}
+.center-mid-1 {
+  background-color: ;
+  padding-bottom: 15px;
+  padding-top: 5px;
+  max-width: 1200px;
+  min-width: 720px;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.center-2 {
+  margin: auto;
+  padding-bottom: 15px;
+  padding-top: 5px;
+  width: 940px;
+}
+
+.main-image {
+  width: 940px;
+  height: 600px;
+  margin: 20px;
+}
+
+.character-image {
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+}
+
+#profiles {
+  width: 57.5%;
+  float: left;
+}
+
+#images {
+  width: 37.5%;
+  float: right;
+}
+
+.img-gallery {
+  margin: auto;
+  padding-right: 8px;
+  width: 400px;
+  height: 300px;
+}
+
+.main-content {
+  margin: auto;
+  width: 800px;
+}
+h1,
+h2,
+h4 {
+  color: white;
+}
+p {
+  color: white;
+}
+
+.hide {
+  visibility: hidden;
+}
